@@ -1,0 +1,8 @@
+const path = require('path')
+console.log(path.sep)
+const filepath = path.join('C:','Users','Aaditya Rajput','Downloads','C++')
+console.log(filepath)
+const base = path.basename(filepath)
+console.log(base)
+const absolute = path.resolve(__dirname,'Downloads','C++','text.txt')
+console.log(absolute)
